@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".activity.RegisterActivity">
+
+    <TextView
+        android:id="@+id/txtRegist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/etNameReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtRegist"
+        android:layout_marginTop="50dp"
+        android:hint="Masukkan Nama" />
+
+    <EditText
+        android:id="@+id/etUnameReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNameReg"
+        android:hint="Masukkan Username" />
+
+    <EditText
+        android:id="@+id/etPassReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etUnameReg"
+        android:hint="Masukkan Password" />
+
+    <EditText
+        android:id="@+id/etRepass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassReg"
+        android:hint="Masukkan Ulang Password" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRepass"
+        android:layout_marginTop="40dp"
+        android:text="Register"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

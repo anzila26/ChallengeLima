@@ -7,7 +7,13 @@ import anzila.binar.challengelima.databinding.ItemFilmBinding
 import anzila.binar.challengelima.model.ResponseFilmItem
 import com.bumptech.glide.Glide
 
-class FilmAdapter(var listFilm : List<ResponseFilmItem>): RecyclerView.Adapter<FilmAdapter.ViewHolder>() {
+class FilmAdapter(private var onClick : (ResponseFilmItem)->Unit ): RecyclerView.Adapter<FilmAdapter.ViewHolder>() {
+
+    private var listFilm: List<ResponseFilmItem>? = null
+
+    fun setDataFilm(film : List<ResponseFilmItem>){
+        this.listFilm = film
+    }
 
     class ViewHolder(var binding: ItemFilmBinding): RecyclerView.ViewHolder(binding.root) {
 
@@ -19,13 +25,23 @@ class FilmAdapter(var listFilm : List<ResponseFilmItem>): RecyclerView.Adapter<F
     }
 
     override fun onBindViewHolder(holder: FilmAdapter.ViewHolder, position: Int) {
-        holder.binding.nameFilm.text = listFilm[position].movieName
-        holder.binding.dateFilm.text = listFilm[position].createdAt
-        Glide.with(holder.itemView).load(listFilm[position].image).into(holder.binding.imgFilm)
+        holder.binding.nameFilm.text = listFilm!![position].movieName
+        holder.binding.dateFilm.text = listFilm!![position].createdAt
+        Glide.with(holder.itemView).load(listFilm!![position].image).into(holder.binding.imgFilm)
+        holder.binding.detailFilm.setOnClickListener {
+            onClick?.invoke(listFilm!![position])
+        }
+       // }
     }
 
     override fun getItemCount(): Int {
-        return listFilm.size
+        if (listFilm == null){
+            return 0
+        }
+        else{
+            return listFilm?.size!!
+        }
+        //return listFilm!!.size
     }
 
 }

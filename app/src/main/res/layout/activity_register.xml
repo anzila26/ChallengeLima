@@ -15,40 +15,80 @@
         android:layout_centerHorizontal="true"
         android:textSize="30sp"/>
 
-    <EditText
-        android:id="@+id/etNameReg"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textFieldReg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtRegist"
+        android:hint="Masukkan Nama"
         android:layout_marginTop="50dp"
-        android:hint="Masukkan Nama" />
+        android:layout_marginBottom="15dp">
 
-    <EditText
-        android:id="@+id/etUnameReg"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNameReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textFieldRegDua"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etNameReg"
-        android:hint="Masukkan Username" />
+        android:layout_below="@+id/textFieldReg"
+        android:hint="Masukkan Username"
+        android:layout_marginBottom="15dp">
 
-    <EditText
-        android:id="@+id/etPassReg"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etUnameReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textFieldRegTiga"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/etUnameReg"
-        android:hint="Masukkan Password" />
+        android:layout_below="@+id/textFieldRegDua"
+        android:hint="Masukkan Password"
+        app:endIconMode="password_toggle"
+        android:layout_marginBottom="15dp">
 
-    <EditText
-        android:id="@+id/etRepass"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textFieldRegEmpat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etPassReg"
-        android:hint="Masukkan Ulang Password" />
+        android:layout_below="@+id/textFieldRegTiga"
+        android:hint="Masukkan Ulang Password"
+        app:endIconMode="password_toggle"
+        android:layout_marginBottom="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etRepass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btnReg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etRepass"
+        android:layout_below="@+id/textFieldRegEmpat"
         android:layout_marginTop="40dp"
         android:text="Register"
         android:layout_centerHorizontal="true" />

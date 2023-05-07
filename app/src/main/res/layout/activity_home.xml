@@ -11,7 +11,7 @@
         android:id="@+id/txtWel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome, " />
+        android:text="@string/welcome" />
 
     <ImageView
         android:id="@+id/klikProfile"
@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtWel"
-        android:text="Home"
+        android:text="@string/home"
         android:textSize="30dp"
         android:layout_centerHorizontal="true"/>
 

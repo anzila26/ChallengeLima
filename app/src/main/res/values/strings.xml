@@ -1,5 +1,5 @@
-<resources>
-    <string name="app_name" translatable="false">List Movie App</string>
-    <string name="welcome">Selamat Datang</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">List Movie App</string>
     <string name="home" translatable="false">Home</string>
+    <string name="back" translatable="false">Jangan Lupa Datang Kembali</string>
 </resources>

@@ -48,18 +48,6 @@ class RegisterActivity : AppCompatActivity() {
                 Toast.makeText(this, "Empty Fields Are not Allowed !!", Toast.LENGTH_SHORT).show()
 
             }
-
-            //    if (pass == rePass) {
-            //        val rPref = sharedPref.edit()
-            //        rPref.putString("nama", nama)
-            //        rPref.putString("username", uname)
-            //        rPref.putString("password", pass)
-            //        rPref.apply()
-            //        startActivity(Intent(this, LoginActivity::class.java))
-            //        Toast.makeText(this,"Berhasil Regist", Toast.LENGTH_LONG).show()
-            //    } else {
-            //       Toast.makeText(this, "Password Harus Sama", Toast.LENGTH_SHORT).show()
-            //    }
         }
 
         sharedPref = getSharedPreferences("dataUser", Context.MODE_PRIVATE)

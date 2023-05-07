@@ -45,14 +45,6 @@ class HomeActivity : AppCompatActivity() {
     }
 
     fun showDataFilm() {
-    //    val viewModelFilm = ViewModelProvider(this).get(FilmViewModel::class.java)
-    //    viewModelFilm.callApiFilm()
-     //   viewModelFilm.liveDataFilm.observe(this, Observer {
-    //        if (it != null){
-     //           binding.rvFilm.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
-     //           binding.rvFilm.adapter = FilmAdapter(it)
-     //       }
-    //    })
         val viewModelFilm = ViewModelProvider(this).get(FilmViewModel::class.java)
         viewModelFilm.getliveDataFilm().observe(this, Observer {
             if (it != null){

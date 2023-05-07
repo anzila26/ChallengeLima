@@ -10,7 +10,7 @@
         android:id="@+id/txtSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/welcome"
+        android:text="Selamat Datang"
         android:textSize="25dp"
         android:textStyle="bold"
         android:layout_centerInParent="true"/>

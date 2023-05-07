@@ -65,13 +65,6 @@ class LoginActivity : AppCompatActivity() {
            } else {
                Toast.makeText(this, "Empty Fields Are not Allowed !!", Toast.LENGTH_SHORT).show()
            }
-            //val dataUname = sharedPref.getString("username", "")
-            //val dataPass = sharedPref.getString("password", "")
-            //if(uname == dataUname && pass == dataPass) {
-             //   startActivity(Intent(this, HomeActivity::class.java))
-            //} else {
-            //    Toast.makeText(this, "Login Tidak Berhasil", Toast.LENGTH_SHORT).show()
-            //}
        }
 
         binding.txtNoReg.setOnClickListener {

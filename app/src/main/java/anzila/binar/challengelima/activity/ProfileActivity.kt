@@ -47,16 +47,13 @@ class ProfileActivity : AppCompatActivity() {
                 val intent = Intent(this, LoginActivity::class.java)
                 Toast.makeText(this, "Logging Out", Toast.LENGTH_SHORT).show()
                 startActivity(intent)
-                finish()
             }
-        }
 
-      binding.btnLogout.setOnClickListener {
-         sharedPref = getSharedPreferences("dataUser", Context.MODE_PRIVATE)
-          val delete = sharedPref?.edit()
-          delete?.clear()
-          delete?.apply()
-          startActivity(Intent(this, LoginActivity::class.java))
+            sharedPref = getSharedPreferences("dataUser", Context.MODE_PRIVATE)
+            val delete = sharedPref?.edit()
+            delete?.clear()
+            delete?.apply()
+            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 }

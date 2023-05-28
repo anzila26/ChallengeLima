@@ -1,0 +1,158 @@
+{
+  "project_info": {
+    "project_number": "120212274197",
+    "project_id": "contohbinar1",
+    "storage_bucket": "contohbinar1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120212274197:android:77b5697851a3b7428be21c",
+        "android_client_info": {
+          "package_name": "anzila.binar.challengelima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120212274197-02ktf67jfn9ahq79380v7a2eantjeavh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anzila.binar.challengelima",
+            "certificate_hash": "1f8adb1c7e3f58d7c3d91819c4393ece5d42e256"
+          }
+        },
+        {
+          "client_id": "120212274197-sc49g6bdbva0s57vlvot2uov7pmo77an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPNCiKn2OOt7xMwJLob_20YW4HhKQpGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120212274197-sc49g6bdbva0s57vlvot2uov7pmo77an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120212274197:android:66425549d806115a8be21c",
+        "android_client_info": {
+          "package_name": "anzila.binar.challengelima.filmc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120212274197-9s8e4luhfmaf2h9nmj20ol5mb1nvbcnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anzila.binar.challengelima.filmc",
+            "certificate_hash": "1f8adb1c7e3f58d7c3d91819c4393ece5d42e256"
+          }
+        },
+        {
+          "client_id": "120212274197-sc49g6bdbva0s57vlvot2uov7pmo77an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPNCiKn2OOt7xMwJLob_20YW4HhKQpGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120212274197-sc49g6bdbva0s57vlvot2uov7pmo77an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120212274197:android:e0afb29808a426948be21c",
+        "android_client_info": {
+          "package_name": "anzila.binar.contohrecyleview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120212274197-6rhr8691d3ajfupaam35u02moc8d5jod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anzila.binar.contohrecyleview",
+            "certificate_hash": "1f8adb1c7e3f58d7c3d91819c4393ece5d42e256"
+          }
+        },
+        {
+          "client_id": "120212274197-sc49g6bdbva0s57vlvot2uov7pmo77an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPNCiKn2OOt7xMwJLob_20YW4HhKQpGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120212274197-sc49g6bdbva0s57vlvot2uov7pmo77an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120212274197:android:0670fedfa0832bf68be21c",
+        "android_client_info": {
+          "package_name": "anzila.binar.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120212274197-ukalmktpg2lh898o6fvrj0aoak4uup7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anzila.binar.firebase",
+            "certificate_hash": "1f8adb1c7e3f58d7c3d91819c4393ece5d42e256"
+          }
+        },
+        {
+          "client_id": "120212274197-sc49g6bdbva0s57vlvot2uov7pmo77an.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPNCiKn2OOt7xMwJLob_20YW4HhKQpGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120212274197-sc49g6bdbva0s57vlvot2uov7pmo77an.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -19,6 +19,22 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    flavorDimensions("film")
+    productFlavors {
+        filma {
+            applicationIdSuffix ".filma"
+            dimension "film"
+        }
+        filmb {
+            applicationIdSuffix ".filmb"
+            dimension "film"
+        }
+        filmc {
+            applicationIdSuffix ".filmc"
+            dimension "film"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
